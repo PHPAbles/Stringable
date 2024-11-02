@@ -4,6 +4,8 @@
     "type": "library",
     "require": {
         "php": ">=8.3",
+        "potter/array-access": "dev-main",
+        "potter/json-serializable": "dev-main",
         "illuminate/support": "^11.30"
     },
     "license": "MIT",
