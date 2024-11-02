@@ -1,2 +1,2 @@
 # Stringable
-PHP Stringable Implementation
+PHP Stringable Interface
