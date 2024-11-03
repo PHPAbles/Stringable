@@ -1,17 +1,17 @@
 {
-    "name": "potter/stringable",
+    "name": "php-ables/stringable",
     "description": "PHP Stringable Implementation",
     "type": "library",
     "require": {
         "php": ">=8.3",
+        "php-ables/json-serializable": "dev-main",
         "potter/array-access": "dev-main",
-        "potter/json-serializable": "dev-main",
         "illuminate/support": "^11.30"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Potter\\Stringable\\": "src/Potter/Stringable/"
+            "PHPAbles\\Stringable\\": "src/PHPAbles/Stringable/"
         }
     },
     "authors": [

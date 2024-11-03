@@ -2,10 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Potter\Stringable;
+namespace PHPAbles\Stringable;
 
-use Potter\{ArrayAccess\ArrayAccessInterface, Json\Serializable\JsonSerializableInterface};
-use Illuminate\Support\Stringable;
+use Potter\ArrayAccess\ArrayAccessInterface,
+    PHPAbles\Json\Serializable\JsonSerializableInterface,
+    Illuminate\Support\Stringable;
 
 abstract class AbstractStringable extends Stringable implements ArrayAccessInterface, 
                                                                 JsonSerializableInterface, 

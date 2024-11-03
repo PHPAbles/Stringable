@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Potter\Stringable;
+namespace PHPAbles\Stringable;
 
 final class Stringable extends AbstractStringable
 { }
