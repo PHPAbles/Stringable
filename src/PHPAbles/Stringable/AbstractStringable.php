@@ -8,7 +8,8 @@ use Potter\ArrayAccess\ArrayAccessInterface,
     PHPAbles\Json\JsonSerializableInterface,
     Illuminate\Support\Stringable;
 
-abstract class AbstractStringable extends Stringable implements ArrayAccessInterface, 
-                                                                JsonSerializableInterface, 
-                                                                StringableInterface
+abstract class AbstractStringable extends    Stringable
+                                  implements ArrayAccessInterface, 
+                                             JsonSerializableInterface, 
+                                             StringableInterface
 { }
